@@ -23,7 +23,7 @@ Manager::Manager(string name, string pwd)
 		vCom.push_back(com);
 	}
 	ifs.close();
-	cout << "computer size  " << vCom.size() << endl;
+	//cout << "computer size  " << vCom.size() << endl;
 }
 //选择菜单
 void Manager::operMenu()
@@ -119,7 +119,7 @@ void PrintStudent(Student& s)
 }
 void PrintTeacher(Teacher& t)
 {
-	cout << "EmpId :" << t.m_EmpId << "Name :" << t.m_name << "Passward :" << t.m_Pwd << endl;
+	cout << "EmpId:" << t.m_EmpId << " Name:" << t.m_name << " Passward:" << t.m_Pwd << endl;
 }
 
 //查看账号
